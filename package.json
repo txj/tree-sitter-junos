@@ -1,0 +1,12 @@
+{
+  "name": "tree-sitter-junos",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for Juniper Junos configuration files",
+  "main": "bindings/node",
+  "keywords": ["tree-sitter", "parser", "junos", "juniper"],
+  "license": "MIT",
+  "scripts": {
+    "generate": "tree-sitter generate",
+    "parse": "tree-sitter parse"
+  }
+}
